@@ -18,7 +18,9 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body className={outfit.className}>{children}</body>
+      <body className={`bg-custom-gradient ${outfit.className}`}>
+        {children}
+      </body>
     </html>
   );
 }

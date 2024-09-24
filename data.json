@@ -5,17 +5,31 @@
     {
       "title": "My Personal Site",
       "url": "https://github.com/lee-robinson",
-      "icon": "github"
+      "icon": "/user.png"
     },
     {
       "title": "LinkedIn",
       "url": "https://www.linkedin.com/in/lee-robinson-899b5b1b9/",
-      "icon": "linkedin"
+      "icon": "/user.png"
     },
     {
       "title": "Twitter",
       "url": "https://twitter.com/lee_robinson",
-      "icon": "twitter"
+      "icon": "/user.png"
+    },
+    {
+      "title": "Instagram",
+      "url": "https://github.com/lee-robinson"
+    },
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/lee-robinson-899b5b1b9/",
+      "icon": "/user.png"
+    },
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/lee_robinson",
+      "icon": "/user.png"
     }
   ],
 

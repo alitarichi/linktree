@@ -36,23 +36,52 @@ function LinkCard({
   );
 }
 
+function SocialCard({
+  platform,
+  username,
+  icon,
+}: {
+  platform: string;
+  username: string;
+  icon: string;
+}) {
+  return (
+    <a href={username} className="">
+      <Image
+        alt={platform}
+        src={icon}
+        width={40}
+        height={40}
+        className="rounded-sm"
+      />
+    </a>
+  );
+}
+
 export default function Home() {
   return (
-    <div
-      className="flex flex-col items-center justify-center 
-    mx-auto w-full mt-16 px-8 "
-    >
-      <Image
-        alt={data.name}
-        src={data.avatar}
-        width={96}
-        height={96}
-        className="rounded-full"
-      />
-      <h1 className="font-bold mt-4 mb-8 text-xl">{data.name}</h1>
-      {data.links.map((link) => (
-        <LinkCard key={link.url} {...link} />
-      ))}
+    <div className="flex flex-col ">
+      <div
+        className="flex flex-col items-center justify-center 
+    mx-auto w-full mt-16 px-8 mb-10 "
+      >
+        <Image
+          alt={data.name}
+          src={data.avatar}
+          width={96}
+          height={96}
+          className="rounded-full"
+        />
+        <h1 className="font-bold mt-4 mb-8 text-xl">{data.name}</h1>
+        {data.links.map((link) => (
+          <LinkCard key={link.url} {...link} />
+        ))}
+      </div>
+      <div className="flex flex-row items-center justify-center gap-4 pt-20">
+        {data.socials.map((social) => (
+          <SocialCard key={social.username} {...social} />
+        ))}
+      </div>
     </div>
   );
 }

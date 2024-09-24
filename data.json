@@ -34,8 +34,45 @@
   ],
 
   "socials": [
-    { "platform": "Twitter", "username": "lee_robinson" },
-    { "platform": "Instagram", "username": "lee_robinson" },
-    { "platform": "LinkedIn", "username": "lee-robinson-899b5b1b9/" }
+    {
+      "platform": "Twitter",
+      "username": "lee_robinson",
+      "icon": "/twitter2.png"
+    },
+    {
+      "platform": "Instagram",
+      "username": "lee_robinson",
+      "icon": "/instagram.png"
+    },
+    {
+      "platform": "Facebook",
+      "username": "lee-robinson-899b5b1b9/",
+      "icon": "/facebook.png"
+    },
+    {
+      "platform": "github",
+      "username": "lee-robinson-899b5b1b9/",
+      "icon": "/github.png"
+    },
+    {
+      "platform": "youtube",
+      "username": "lee-robinson-899b5b1b9/",
+      "icon": "/youtube.png"
+    },
+    {
+      "platform": "spotify",
+      "username": "lee-robinson-899b5b1b9/",
+      "icon": "/spotify.png"
+    },
+    {
+      "platform": "tik-tok",
+      "username": "lee-robinson-899b5b1b9/",
+      "icon": "/tik-tok.png"
+    },
+    {
+      "platform": "dribble",
+      "username": "lee-robinson-899b5b1b9/",
+      "icon": "/dribble.png"
+    }
   ]
 }

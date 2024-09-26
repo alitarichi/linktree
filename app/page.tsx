@@ -1,3 +1,4 @@
+import Link from "next/link";
 import data from "../data.json";
 import Image from "next/image";
 
@@ -14,7 +15,8 @@ function LinkCard({
     <a
       href={url}
       className="flex items-center p-1 w-full rounded-md
-   hover:scale-105 transition-all border border-gray-300 bg-gray-50 duration-300 mb-3"
+   hover:scale-105 transition-all border border-gray-300 
+   bg-gray-50 duration-300 mb-3"
     >
       <div className="flex text-center w-full">
         <div className="w-10 h-10">
@@ -46,7 +48,7 @@ function SocialCard({
   icon: string;
 }) {
   return (
-    <a href={username} className="">
+    <Link href={username} target="_blank">
       <Image
         alt={platform}
         src={icon}
@@ -54,7 +56,7 @@ function SocialCard({
         height={40}
         className="rounded-sm"
       />
-    </a>
+    </Link>
   );
 }
 
@@ -63,7 +65,7 @@ export default function Home() {
     <div className="flex flex-col ">
       <div
         className="flex flex-col items-center justify-center 
-    mx-auto w-full mt-16 px-8 mb-10 "
+    mx-auto w-full mt-16 px-8  md:max-w-3xl"
       >
         <Image
           alt={data.name}

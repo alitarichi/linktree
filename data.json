@@ -1,77 +1,83 @@
 {
-  "name": "Lee Robinson",
+  "name": "Your Names",
   "avatar": "/user.png",
   "links": [
     {
-      "title": "My Personal Site",
-      "url": "https://github.com/lee-robinson",
-      "icon": "/user.png"
+      "title": "Your Website",
+      "url": "https://alitarichi.netlify.app/",
+      "icon": "/internet.png"
     },
     {
-      "title": "LinkedIn",
-      "url": "https://www.linkedin.com/in/lee-robinson-899b5b1b9/",
-      "icon": "/user.png"
+      "title": "Address",
+      "url": "address",
+      "icon": "/location.png"
     },
     {
-      "title": "Twitter",
-      "url": "https://twitter.com/lee_robinson",
-      "icon": "/user.png"
+      "title": "Contact Us",
+      "url": "https://web.whatsapp.com",
+      "icon": "/phone-call.png"
     },
     {
       "title": "Instagram",
-      "url": "https://github.com/lee-robinson"
+      "url": "https://instagram.com",
+      "icon": "/instagram2.png"
+    },
+    {
+      "title": "Chat on Telegram",
+      "url": "https://x.com",
+      "icon": "/telegram.png"
+    },
+    {
+      "title": "YouTube",
+      "url": "https://youtube.com",
+      "icon": "/youtube2.png"
     },
     {
       "title": "LinkedIn",
-      "url": "https://www.linkedin.com/in/lee-robinson-899b5b1b9/",
-      "icon": "/user.png"
-    },
-    {
-      "title": "Twitter",
-      "url": "https://twitter.com/lee_robinson",
-      "icon": "/user.png"
+      "url": "https://www.linkedin.com",
+      "icon": "/linkedin2.png"
     }
   ],
 
   "socials": [
     {
       "platform": "Twitter",
-      "username": "lee_robinson",
+      "username": "https://x.com/",
       "icon": "/twitter2.png"
     },
     {
       "platform": "Instagram",
-      "username": "lee_robinson",
+      "username": "https://instagram.com",
       "icon": "/instagram.png"
     },
     {
       "platform": "Facebook",
-      "username": "lee-robinson-899b5b1b9/",
+      "username": "https://facebook.com",
       "icon": "/facebook.png"
     },
     {
       "platform": "github",
-      "username": "lee-robinson-899b5b1b9/",
+      "username": "https://github.com",
       "icon": "/github.png"
     },
     {
       "platform": "youtube",
-      "username": "lee-robinson-899b5b1b9/",
+      "username": "https://youtube.com",
       "icon": "/youtube.png"
     },
     {
       "platform": "spotify",
-      "username": "lee-robinson-899b5b1b9/",
+      "username": "https://spotify.com",
       "icon": "/spotify.png"
     },
     {
       "platform": "tik-tok",
-      "username": "lee-robinson-899b5b1b9/",
+      "username": "https://tiktok.com",
       "icon": "/tik-tok.png"
     },
     {
       "platform": "dribble",
-      "username": "lee-robinson-899b5b1b9/",
+      "username": "https://dribbble.com/",
       "icon": "/dribble.png"
     }
   ]

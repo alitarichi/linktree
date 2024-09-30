@@ -14,6 +14,7 @@ function LinkCard({
   return (
     <a
       href={url}
+      target="_blank"
       className="flex items-center p-1 w-full rounded-md
    hover:scale-105 transition-all border border-gray-300 
    bg-gray-50 duration-300 mb-3"
